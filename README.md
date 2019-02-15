@@ -21,8 +21,7 @@ In order for the program to run well and to give the correct output, the code ha
 3. For the triangle to be called "Isoceles" any two sides have to be equal
 4. For the triangle to be called "scalene", No side has to be equal and the sum of two sides must be greater than the third.
 5. For a triangle to be called a triangle the sum of two sides of the triangle MUST NOT be less than or equal to the third.
-
-###Table
+Below is a table to describe this:
 
 Behavior                  | Input Example|  Output Example
 ------------------------  | -------------|  --------------
@@ -34,9 +33,9 @@ No equal values but a+b=c | 5,7,12       |NOT a TRIANGLE
 ## Known Bugs
 There are no known Bugs
 ## Technologies Used
-i used HTML to create the website and CSS to style the website.
-i used visual studio code to create the portfolio readme 
-I used JavaScript to write the code that will enable the application program to run
+* I used HTML to create the website and CSS to style the website.
+* I used visual studio code to create the portfolio readme 
+* I used JavaScript to write the code that will enable the application program to run
 ## Support and contact details
 contact this number if you have any issues: 0722846189
 email: wambitafana@gmail.com
