@@ -13,7 +13,7 @@ function triangle_tracker(){
     alert("Equilateral triangle");
     } else if (a === b || a === c || b===c){
     alert("Isoceles triangle");
-    } else if (a + b > c){
+    } else if (!a===b && !a===c && !b===c &&  a + b > c){
     alert("scalene triangle");
     };
 };
