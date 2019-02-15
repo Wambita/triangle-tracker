@@ -15,12 +15,13 @@ h1{
 }
 p{
     font-family: 'Alegreya Sans', sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 h2{
     font-family: 'Caveat', cursive;
     font-size: 3em;
-    text-align: center
+    text-align: center;
+    text-decoration:underline;
 }
 h3{
     font-family: 'Patrick Hand', cursive;
@@ -46,4 +47,15 @@ button[type="submit"], input[type="reset"] {
      margin: 8px 4px;
      cursor: pointer;
       }
-.
+#class{
+        display: flex;
+        flex-direction: row
+    }
+.type{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 50%;
+    border: 2px solid black;
+    justify-content: space-between;
+}
