@@ -3,9 +3,9 @@ function triangle_tracker(){
     var bbb= document.getElementById('b').value;
     var ccc= document.getElementById('c').value;
 
-//var a = parseInt(aaa);
-//var b = parseInt(bbb);
-//var c = parseInt(ccc);
+var a = parseInt(aaa);
+var b = parseInt(bbb);
+var c = parseInt(ccc);
 
 
 //if (a + b <= c) {
