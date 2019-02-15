@@ -22,6 +22,7 @@ In order for the program to run well and to give the correct output, the code ha
 4. For the triangle to be called "scalene", No side has to be equal and the sum of two sides must be greater than the third.
 5. For a triangle to be called a triangle the sum of two sides of the triangle MUST NOT be less than or equal to the third.
 ####Table
+
 Behavior                  | Input Example|  Output Example
 ------------------------  | -------------|  --------------
 3 equal values            | 7, 7, 7      | Equilateral Triangle
