@@ -4,8 +4,46 @@ body{
     background-color:#CBC0C0 
 }
 h1{
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Caveat', cursive;
     font-size: 5em; 
     text-align: center;
-
+    text-decoration: underline;
 }
+#head{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 2em;
+}
+p{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 2em;
+}
+h2{
+    font-family: 'Caveat', cursive;
+    font-size: 3em;
+    text-align: center
+}
+h3{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 2.5em;
+    text-decoration: underline;
+}
+input[type="number"],form ,{
+    background-color: #CBC0C0 ;
+    color:#000000;
+    font-size:1em;
+    width: 50%;
+    padding: 20px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 4px solid rgba(10, 10, 10, 0.199);
+}
+button[type="submit"], input[type="reset"] {
+     background-color: #8e9492;
+     border: none;
+     color: #000000;
+     padding: 20px 32px;
+     text-decoration: none;
+     margin: 8px 4px;
+     cursor: pointer;
+      }
+.
