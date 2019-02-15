@@ -1,5 +1,11 @@
 body{
     border-width:1000px;
     overflow-x: hidden;
+    background-color:#CBC0C0 
 }
-h
+h1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 5em; 
+    text-align: center;
+
+}
