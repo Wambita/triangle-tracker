@@ -8,12 +8,12 @@ function triangle_tracker(){
     var c = parseInt(ccc);
 
     if (a + b <= c) {
-    alert("Not a TRIANGLE!")
+    alert("Not a TRIANGLE!");
     }else if(a=== b && a=== c && b === c){
-    alert("Equilateral triangle")
+    alert("Equilateral triangle");
     } else if (a === b || a === c || b===c){
-    alert("Isoceles triangle")
+    alert("Isoceles triangle");
     } else if (a + b > c){
-    alert("scalene triangle")
-    }
-}
+    alert("scalene triangle");
+    };
+};
