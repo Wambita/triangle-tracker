@@ -1,7 +1,7 @@
 body{
     border-width:1000px;
     overflow-x: hidden;
-    background-color:#CBC0C0 
+    background-color:#CBC0C0;
 }
 h1{
     font-family: 'Caveat', cursive;
@@ -39,7 +39,7 @@ button[type="submit"], input[type="reset"] {
       }
 #class{
         display: flex;
-        flex-direction: row
+        flex-direction: row;
     }
 .type{
     display: flex;
