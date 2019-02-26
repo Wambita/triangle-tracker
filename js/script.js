@@ -6,14 +6,16 @@ function triangle_tracker() {
     var a = parseInt(aaa);
     var b = parseInt(bbb);
     var c = parseInt(ccc);
+    var dimensions = []
+    dimensions.push(a, b, c)
   
     if (a + b <= c) {
-      alert("Not a TRIANGLE!");
+      alert( "( "+ dimensions +" )" + "= Not a TRIANGLE!");
     } else if (a === b && a === c && b === c) {
-      alert("Equilateral triangle");
+      alert("( "+ dimensions +" )"  +"= Equilateral triangle");
     } else if (a === b || a === c || b === c) {
-      alert("Isoceles triangle");
+      alert("( "+ dimensions +" )" +"= Isoceles triangle");
     } else if (a != b && a != c && b != c && a + b > c) {
-      alert("scalene triangle");
+      alert("( "+ dimensions +" )"  + "=i scalene triangle");
     };
   };
